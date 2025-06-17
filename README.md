@@ -1,4 +1,4 @@
-# HLS VidStream
+# HLS/DASH  VidStream
 
 A full-stack video streaming application inspired by YouTube, built with modern technologies for scalable and efficient video delivery.
 

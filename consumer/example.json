@@ -1,0 +1,32 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "ap-south-1",
+      "eventTime": "2025-06-16T04:32:27.643Z",
+      "eventName": "ObjectCreated:CompleteMultipartUpload",
+      "userIdentity": { "principalId": "A2PH64TAFV7CJB" },
+      "requestParameters": { "sourceIPAddress": "49.37.112.170" },
+      "responseElements": {
+        "x-amz-request-id": "KSCJ4D0PBCX4NNKR",
+        "x-amz-id-2": "osypXYQ5+Wofh4T2L4mPC4yZqVSccSUMNJqBRbA4O9ozXhnYSB5Zgi2xYlYOZkURNWJiqxBui16NCY/W8xU5bLTULSccc8ZYU9qZgP+Ye5k="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "raw-videos-to-sqs",
+        "bucket": {
+          "name": "hls-vidstream-raw-videos",
+          "ownerIdentity": { "principalId": "A2PH64TAFV7CJB" },
+          "arn": "arn:aws:s3:::hls-vidstream-raw-videos"
+        },
+        "object": {
+          "key": "raw/HERITAGE+++%EF%BD%9C+++A+Blender+Animated+Short.mp4",
+          "size": 134000403,
+          "eTag": "9c3a3455cadc82bd5cd80d140092e5ae-8",
+          "sequencer": "00684F9E2C4CE32111"
+        }
+      }
+    }
+  ]
+}
